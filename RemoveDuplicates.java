@@ -1,3 +1,4 @@
+// RemoveDuplicates
 class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
         int insertIndex = 1;
