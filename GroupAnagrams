@@ -8,6 +8,7 @@ class Solution {
             Arrays.sort(chars);
             String sortedwor = new String(chars);
 
+            // check if map contains word
             if(!map.containsKey(sortedwor))
             {
                 map.put(sortedwor, new ArrayList<>());
