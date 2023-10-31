@@ -1,0 +1,27 @@
+public class Fibonacci{
+    public static void printFibofN(int n){
+        if(n<=0){
+            System.out.println("Invalid input, Give a positive number";)
+            return ;
+        }
+
+        int previous=o;
+        int current=1;
+        int length=1;
+        System.out.println("Fib sequence of length"+ n + ":");
+
+        while(length<=n){
+            System.out.println(current + " ");
+            int next = previous + current;
+            previous=current;
+            current=next;
+            length=String.valueOf(current).length;
+        }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+            int n = 10; // Change this to the desired length of the Fibonacci sequence
+            printFibofN(n);
+          
+    }
+}
